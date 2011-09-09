@@ -28,7 +28,7 @@ describe("type", function() {
 		var newReleaseType = Type.NEW_RELEASES;
 		expect(newReleaseType.cost).toBe(32);
 	});
-	it("new releases provide 39 points",function() {
+	it("new releases provide 39 points", function() {
 		var newReleaseType = Type.NEW_RELEASES;
 		expect(newReleaseType.points).toBe(39);
 	});
